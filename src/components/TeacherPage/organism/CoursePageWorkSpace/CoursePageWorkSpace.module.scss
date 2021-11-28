@@ -1,0 +1,64 @@
+.container{
+    width: 85vw;
+    .topContainer{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .task_container{
+        width: 97%;
+    }
+    .addButton{
+        text-align: center;
+        font-weight: 500;
+        font-size: 16pt;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+        background-color:white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    }
+    .addButton:hover{
+        cursor: pointer;
+        color: #5c43f7
+    }
+    .saveButtonContainer{
+        padding-top: 3rem;
+        text-align: right;
+        padding-right: 3%;
+        .saveButton{
+            padding: 8px 15px;
+            color: #FFFFFF;
+            background-color: #5c43f7;
+            font-size: 20px;
+            font-weight: 700;
+            border-radius: 6px;
+            border: none;
+            &:hover{
+                cursor: pointer;
+                opacity: 0.85;
+            }
+            &:active, &:focus { outline: none; }
+        }
+    }
+    .titleInput{
+        outline: none;
+        height: 3rem;
+        width: 60vw;
+        resize: none;
+        font-size: 30pt;
+        font-family: Roboto;
+        font-weight: bold;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid black;
+        background: none;
+        padding-bottom: 0;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        margin-top: 2.5rem;
+    }
+
+}

@@ -1,0 +1,40 @@
+
+.wrapper{
+    height: 15rem;
+    width: 25rem;
+    padding: 1rem;
+    .container{
+        height: 13rem;
+        background-color:white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+        cursor: pointer;
+        .titlecontainer{
+            display: flex;
+            border-radius: 10px 10px 0 0;
+            background-color:  #b1b3ff;
+            align-items: flex-end;
+            height: 50%;
+            font-weight: 600;
+            font-size: 18pt;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        .line{
+            border: none;
+            color:  rgba(221, 221, 221, 1);
+            background-color:  rgba(221, 221, 221, 1);
+            height: 1px;
+            margin-top: 0;
+        }
+        .author{
+            padding: 0.5rem;
+            float: right;
+            text-align: right;
+            width: 50%;
+            font-size: 10pt;
+            color: #929292;
+        }
+
+    }
+}

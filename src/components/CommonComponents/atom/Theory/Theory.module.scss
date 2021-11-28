@@ -1,0 +1,46 @@
+.wrapper{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 50rem;
+    max-height: 35rem;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    .textContainer{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .plus {
+        cursor: pointer;
+        float: right;
+        margin-right: 1rem;
+        background: #aaa;
+        height: 15px; 
+        width: 3px;
+        position: relative; 
+        left: 6px;
+        }
+    .plus:after {
+        content: "";
+        height: 3px; 
+        width: 15px;
+        background: #aaa;
+        position: absolute; 
+        left: -6px; 
+        top: 6px;
+    }
+    .rotate{
+        float: left !important;
+        transform: rotate(45deg);
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        .title{
+            font-weight: 600;
+            font-size: 24pt;
+        }
+    }
+}
